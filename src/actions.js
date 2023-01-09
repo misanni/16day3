@@ -1,6 +1,6 @@
 import { redirect } from "react-router-dom";
 
-const URL = "http://localhost:4000";
+const URL = "https://peopleapp-3re1.onrender.com/";
 
 export const createAction = async ({ request }) => {
     const formData = await request.formData();
