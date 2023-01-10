@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 function Header(props) {
   return (
     <nav className="nav">
-      <Link to="/">
+      {/* <Link to="/"> */}
         <div>People App</div>
-      </Link>
+      {/* </Link> */}
     </nav>
   )
 }

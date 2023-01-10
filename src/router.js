@@ -14,11 +14,11 @@ const router = createBrowserRouter(
 
         <Route path="/" element={<App/>}>
                 <Route path="" element={<Index/>} loader={peopleLoader}/>
-                <Route path=":id" element={<Show/>}/>
+           <Route path=":id" element={<Show/>}/>
                 <Route path="create" action={createAction}/>
                 <Route path="create"/>
                 <Route path="update/:id"/>
-                <Route path="delete/:id"/>
+                <Route path="delete/:id"/>  
         </Route>
 
     )
